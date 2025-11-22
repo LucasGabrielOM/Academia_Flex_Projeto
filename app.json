@@ -4,7 +4,6 @@
     "slug": "academiaflex",
     "version": "1.0.0",
     "orientation": "portrait",
-
     "scheme": "academiaflex",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -16,7 +15,8 @@
         "backgroundColor": "#E6F4FE"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.lucas_gabriel19.academiaflex"
     },
     "web": {
       "output": "static",
@@ -40,6 +40,18 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f725f2a5-17bd-41a3-86ad-f1796d2b27c1"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f725f2a5-17bd-41a3-86ad-f1796d2b27c1"
     }
   }
 }
